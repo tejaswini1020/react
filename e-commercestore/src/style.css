@@ -1,0 +1,31 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    background-color:thistle;
+}
+.container{
+    width: 350px;
+    background-color:whitesmoke;
+    border:2px solid #f5f5f5;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+input{
+    display:block;
+    width: 100%;
+    padding:8px;
+    margin: 10px 0;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    border:none;
+}

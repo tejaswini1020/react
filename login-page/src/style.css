@@ -1,0 +1,26 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aquamarine;
+  }
+  
+  .box {
+    background-color: bisque;
+    padding: 50px;
+    border: 10px solid #ccc;
+    text-align: center;
+  }
+
+  input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+  }
+    .error {
+    color: red;
+  }
+  
