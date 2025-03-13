@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+.cart-container {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+  padding: 30px;
+  min-height: 100vh;
+}
+
+.cart-title {
+  font-size: 2rem;
+  color: #ff4081;
+  margin-bottom: 20px;
+}
+
+.empty-cart {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 20px;
+}
+
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.cart-item {
+  background: white;
+  border-radius: 15px;
+  padding: 15px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.cart-item:hover {
+  transform: scale(1.05);
+}
+
+.cart-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.cart-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.cart-price {
+  font-size: 1rem;
+  color: #ff4081;
+  margin: 5px 0;
+}
+
+.remove-button {
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #ff4b5c;
+  color: white;
+  box-shadow: 0 5px 15px rgba(255, 75, 92, 0.4);
+  transition: all 0.3s ease-in-out;
+}
+
+.remove-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Buttons Section */
+.button-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.back-button,
+.payment-button {
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.back-button {
+  background: #57c4e5;
+  color: white;
+  box-shadow: 0 5px 15px rgba(87, 196, 229, 0.4);
+}
+
+.back-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.payment-button {
+  background: #ff80ab;
+  color: white;
+  box-shadow: 0 5px 15px rgba(255, 128, 171, 0.4);
+}
+
+.payment-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}

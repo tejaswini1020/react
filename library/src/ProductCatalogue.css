@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+.product-container {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+  padding: 20px;
+  min-height: 100vh;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #ff4081;
+  margin-bottom: 15px;
+}
+
+/* Add Product Button */
+.add-product-button {
+  background: #ff9800; /* Orange */
+  color: white;
+  box-shadow: 0 4px 12px rgba(255, 152, 0, 0.4);
+  margin-bottom: 15px; /* Added gap below */
+}
+
+/* Product List */
+.product-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+/* Product Item */
+.product-item {
+  background: white;
+  border-radius: 12px;
+  padding: 12px;
+  width: 170px; /* Slightly smaller */
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.product-item:hover {
+  transform: scale(1.05);
+}
+
+/* Product Image */
+.product-image {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  margin-bottom: 6px;
+}
+
+/* Product Name */
+.product-name {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Product Price */
+.product-price {
+  font-size: 0.85rem;
+  color: #ff4081;
+  margin: 3px 0;
+}
+
+/* Bottom Buttons */
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 25px; /* Increased gap */
+  align-items: center;
+}
+
+/* Cart Button */
+.cart-button {
+  background: #e72f72;
+  color: white;
+  box-shadow: 0 4px 12px rgba(87, 196, 229, 0.4);
+}
+
+/* Logout Button */
+.logout-button {
+  background: #f22b3f;
+  color: white;
+  box-shadow: 0 4px 12px rgba(255, 75, 92, 0.4);
+  margin-top: 8px; /* Moves it slightly down */
+}
+
+/* Common Button Styling */
+.add-product-button, .cart-button, .logout-button {
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  min-width: 140px; /* Uniform button width */
+  text-align: center;
+}
+
+/* Hover Effects */
+.add-product-button:hover,
+.cart-button:hover,
+.logout-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
