@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap");
+
+.admin-login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #d4a5ff, #b39ddb); /* Soft lavender & purple gradient */
+  font-family: "Nunito", sans-serif;
+}
+
+.admin-login-box {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+}
+
+.admin-login-box h2 {
+  font-size: 1.8rem;
+  color: #6a1b9a; /* Dark purple */
+  margin-bottom: 15px;
+}
+
+/* Horizontal input layout with smaller boxes */
+.admin-input-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 2px solid #9575cd; /* Light purple */
+  transition: 0.3s ease-in-out;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.admin-input-group input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 8px;
+  font-size: 0.9rem;
+  background: transparent;
+}
+
+.admin-input-group input::placeholder {
+  color: #888;
+  font-size: 0.85rem;
+}
+
+/* Icon styling */
+.admin-input-group i {
+  font-size: 1.1rem;
+  color: #6a1b9a; /* Dark purple */
+  margin-right: 8px;
+}
+
+.admin-input-group:focus-within {
+  border-color: #6a1b9a;
+  box-shadow: 0 4px 8px rgba(106, 27, 154, 0.2);
+}
+
+.admin-error-message {
+  color: #d32f2f;
+  font-size: 0.85rem;
+  margin-bottom: 8px;
+}
+
+/* Cute button with smaller size */
+.admin-cute-btn {
+  width: 90%;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  background: #7e57c2; /* Medium purple */
+  color: white;
+  box-shadow: 0 4px 12px rgba(126, 87, 194, 0.4);
+  transition: all 0.3s ease-in-out;
+}
+
+.admin-cute-btn:hover {
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
